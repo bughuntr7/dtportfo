@@ -18,7 +18,7 @@ const Navbar = () => {
                     className="flex items-center gap-2"
                     onClick={close}
                 >
-                    <span className="text-3xl font-bold text-primary">YH</span>
+                    <span className="text-3xl font-bold text-primary">Daniel Tan</span>
                 </a>
 
                 {/* Desktop menu */}
@@ -87,8 +87,8 @@ const Navbar = () => {
             {/* Mobile menu panel with smooth transition */}
             <div
                 className={`absolute top-full left-0 w-full transition-all duration-300 ease-in-out ${open
-                        ? "opacity-100 translate-y-0 pointer-events-auto"
-                        : "opacity-0 -translate-y-full pointer-events-none"
+                    ? "opacity-100 translate-y-0 pointer-events-auto"
+                    : "opacity-0 -translate-y-full pointer-events-none"
                     } border-t border-border bg-black/80 backdrop-blur md:hidden`}
             >
                 <div className="mx-auto flex max-w-6xl flex-col gap-1 px-6 py-4">
