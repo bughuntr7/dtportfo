@@ -37,7 +37,7 @@ const Contact = () => {
                                             Email
                                         </p>
                                         <p className="text-muted-foreground">
-                                            nadayassinhamdi@gmail.com
+                                            cipherwolf007@gmail.com
                                         </p>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@ const Contact = () => {
                                         size="icon"
                                         className="hover:bg-primary hover:text-primary-foreground"
                                     >
-                                        <a href="https://github.com/Yassin-ha">
+                                        <a href="https://github.com/bughuntr7">
                                             <Github className="h-5 w-5" />
                                         </a>
                                     </Button>
@@ -76,7 +76,7 @@ const Contact = () => {
                                         size="icon"
                                         className="hover:bg-primary hover:text-primary-foreground"
                                     >
-                                        <a href="https://www.linkedin.com/in/yassine-hamdi-9a6067278/">
+                                        <a href="https://www.linkedin.com/in/">
                                             <Linkedin className="h-5 w-5" />
                                         </a>
                                     </Button>

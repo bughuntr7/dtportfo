@@ -11,9 +11,9 @@ const About = () => {
   const codeLines = [
     "// Building scalable MERN solutions",
     "const developer = {",
-    "  name: 'Yassine Hamdi',",
+    "  name: 'Daniel Tan',",
     "  expertise: ['MongoDB', 'Express', 'React', 'Node.js'],",
-    "  experience: '2+ years',",
+    "  experience: '9+ years',",
     "  focus: 'Full-Stack'",
     "};",
     "",
@@ -134,7 +134,7 @@ const About = () => {
                       <div className="w-3 h-3 bg-success rounded-full"></div>
                     </div>
                     <span className="text-sm text-muted-foreground font-mono ml-4">
-                      ~/portfolio/yassine-hamdi
+                      ~/portfolio/Daniel Tan
                     </span>
                   </div>
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-muted-foreground">
@@ -147,7 +147,7 @@ const About = () => {
                 <div className="p-6 font-mono text-sm min-h-[400px]">
                   <div className="flex items-center space-x-2 mb-4">
                     <span className="text-success">
-                      yassine@portfolio
+                      daniel@portfolio
                     </span>
                     <span className="text-muted-foreground">
                       :
@@ -180,7 +180,7 @@ const About = () => {
                   {currentLine >= codeLines.length && (
                     <div className="mt-4 flex items-center space-x-2">
                       <span className="text-success">
-                        yassine@portfolio
+                        daniel@portfolio
                       </span>
                       <span className="text-muted-foreground">
                         :

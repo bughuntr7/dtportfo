@@ -10,8 +10,8 @@ const Hero = () => {
             <div className="container mx-auto px-6 text-center relative z-10">
                 <div className="mb-8">
                     <h1 className="text-6xl md:text-8xl font-bold mb-4 tracking-tight">
-                        <span className="text-foreground">Yassine</span>{" "}
-                        <span className="text-primary">Hamdi</span>
+                        <span className="text-foreground">Daniel</span>{" "}
+                        <span className="text-primary">Tan</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-muted-foreground mb-2">
                         MERN Stack Developer
@@ -24,14 +24,14 @@ const Hero = () => {
 
                 <div className="flex justify-center gap-4 mb-8 flex-wrap">
                     <Button variant="default" size="lg" className="group">
-                        <a href="https://github.com/Yassin-ha" className="flex">
+                        <a href="https://github.com/bughuntr7" className="flex">
                             <Github className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
                             GitHub
                         </a>
                     </Button>
                     <Button variant="outline" size="lg" className="group">
                         <a
-                            href="https://www.linkedin.com/in/yassine-hamdi-9a6067278/"
+                            href="https://www.linkedin.com/in/daniel-tan-9a6067278/"
                             className="flex"
                         >
                             <Linkedin className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
@@ -40,7 +40,7 @@ const Hero = () => {
                     </Button>
                     <Button variant="outline" size="lg" className="group">
                         <a
-                            href="mailto:nadayassinhamdi@gmail.com"
+                            href="mailto:cipherwolf007@gmail.com"
                             className="flex"
                         >
                             <Mail className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />

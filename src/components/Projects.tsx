@@ -67,8 +67,8 @@ const Projects = () => {
                                         </h3>
                                         <span
                                             className={`px-2 py-1 rounded-full text-xs font-medium ${project.status === "Live"
-                                                    ? "bg-primary/20 text-primary"
-                                                    : "bg-muted text-muted-foreground"
+                                                ? "bg-primary/20 text-primary"
+                                                : "bg-muted text-muted-foreground"
                                                 }`}
                                         >
                                             {project.status}
