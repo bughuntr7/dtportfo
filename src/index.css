@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+/* Smooth scrolling for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Enhanced smooth scrolling with better performance */
+* {
+  scroll-behavior: smooth;
+}
+
+/* Optional: Add scroll padding to account for fixed navbar */
+html {
+  scroll-padding-top: 20px; /* Adjust based on your navbar height */
+}
+
+/* Improve scroll performance */
+body {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch; /* For iOS smooth scrolling */
+}
+
+/* Professional Typography */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+@theme {
+    /* Core palette for dark theme on black background */
+    --color-background: rgb(0 0 0);
+    --color-foreground: rgb(229 229 229);
+    --color-muted-foreground: rgb(163 163 163);
+    --color-border: rgb(38 38 38);
+    --color-ring: rgb(16 185 129);
+
+    /* Brand & accents */
+    --color-primary: rgb(16 185 129); /* emerald-500 */
+    --color-primary-foreground: rgb(0 0 0);
+    --color-secondary: rgb(24 24 27); /* zinc-900 */
+    --color-secondary-foreground: rgb(229 229 229);
+    --color-accent: rgb(20 184 166); /* teal-500 */
+    --color-accent-foreground: rgb(0 0 0);
+
+    /* Surfaces */
+    --color-card: rgb(17 17 17);
+    --color-card-foreground: rgb(229 229 229);
+    --color-popover: rgb(17 17 17);
+    --color-popover-foreground: rgb(229 229 229);
+
+    /* Terminal specific */
+    --color-terminal-bg: rgb(10 10 10);
+    --color-terminal-text: rgb(226 232 240); /* slate-200 */
+    --color-terminal-cursor: rgb(16 185 129); /* matches primary */
+    --color-success: rgb(34 197 94); /* green-500 */
+    --color-warning: rgb(234 179 8); /* yellow-500 */
+    --color-destructive: rgb(239 68 68); /* red-500 */
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(
+        135deg,
+        hsl(160 84% 39% / 0.10),
+        hsl(173 80% 40% / 0.10) 35%,
+        hsl(217 91% 60% / 0.08) 100%
+    );
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 9%), hsl(0 0% 12%));
+}
