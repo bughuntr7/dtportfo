@@ -66,11 +66,10 @@ const Projects = () => {
                                             {project.title}
                                         </h3>
                                         <span
-                                            className={`px-2 py-1 rounded-full text-xs font-medium ${
-                                                project.status === "Live"
+                                            className={`px-2 py-1 rounded-full text-xs font-medium ${project.status === "Live"
                                                     ? "bg-primary/20 text-primary"
                                                     : "bg-muted text-muted-foreground"
-                                            }`}
+                                                }`}
                                         >
                                             {project.status}
                                         </span>
@@ -120,22 +119,22 @@ const Projects = () => {
                                     <div className="flex gap-2 pt-4">
                                         {project.status ===
                                             "In Development" && (
-                                            <Button
-                                                size="sm"
-                                                variant="default"
-                                                className="flex-1"
-                                            >
-                                                <a
-                                                    href={project.githubLink}
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
-                                                    className="flex w-full h-full items-center justify-center"
+                                                <Button
+                                                    size="sm"
+                                                    variant="default"
+                                                    className="flex-1"
                                                 >
-                                                    <Github className="mr-2 h-4 w-4" />
-                                                    Code
-                                                </a>
-                                            </Button>
-                                        )}
+                                                    <a
+                                                        href={project.githubLink}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="flex w-full h-full items-center justify-center"
+                                                    >
+                                                        <Github className="mr-2 h-4 w-4" />
+                                                        Code
+                                                    </a>
+                                                </Button>
+                                            )}
                                         {project.status === "Live" && (
                                             <Button
                                                 size="sm"

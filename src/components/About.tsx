@@ -85,21 +85,21 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
             About <span className="text-primary">Me</span>
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate MERN stack developer with a love for creating efficient, 
-                scalable web applications. My journey in web development started with curiosity 
+                I'm a passionate MERN stack developer with a love for creating efficient,
+                scalable web applications. My journey in web development started with curiosity
                 and has evolved into a deep expertise in modern JavaScript technologies.
               </p>
-              
+
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I specialize in building full-stack applications using MongoDB, Express.js, 
-                React, and Node.js. From responsive front-end interfaces to robust backend APIs, 
+                I specialize in building full-stack applications using MongoDB, Express.js,
+                React, and Node.js. From responsive front-end interfaces to robust backend APIs,
                 I enjoy every aspect of the development process.
               </p>
-              
+
               <div className="space-y-3">
                 <h3 className="text-xl font-semibold text-foreground">What I bring:</h3>
                 <ul className="space-y-2 text-muted-foreground">
@@ -122,7 +122,7 @@ const About = () => {
                 </ul>
               </div>
             </div>
-            
+
             <div className="relative hidden md:block">
               <div className="bg-terminal-bg border border-border rounded-lg overflow-hidden card-shadow">
                 {/* Terminal Header */}

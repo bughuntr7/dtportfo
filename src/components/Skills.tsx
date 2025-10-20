@@ -57,10 +57,10 @@ const Skills: React.FC = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
             Skills & <span className="text-primary">Technologies</span>
           </h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {skills.map((category, categoryIndex) => (
-              <div 
+              <div
                 key={category.category}
                 className="bg-gradient-card p-6 rounded-2xl shadow-card border border-border hover:shadow-glow transition-all duration-300 hover:-translate-y-1"
               >
@@ -68,7 +68,7 @@ const Skills: React.FC = () => {
                 <h3 className="text-xl font-semibold text-foreground mb-6 text-center">
                   {category.category}
                 </h3>
-                
+
                 <div className="space-y-4">
                   {category.items.map((skill, skillIndex) => (
                     <div key={`${category.category}-${skill.name}`} className="space-y-2">
@@ -80,9 +80,9 @@ const Skills: React.FC = () => {
                           {skill.level}%
                         </span>
                       </div>
-                      
+
                       {/* Progress bar with accessibility */}
-                      <div 
+                      <div
                         className="w-full bg-muted rounded-full h-2"
                         role="progressbar"
                         aria-label={`${skill.name} proficiency`}
@@ -90,9 +90,9 @@ const Skills: React.FC = () => {
                         aria-valuemin={0}
                         aria-valuemax={100}
                       >
-                        <div 
+                        <div
                           className="bg-gradient-to-r from-primary to-accent h-2 rounded-full transition-all duration-1000 ease-out"
-                          style={{ 
+                          style={{
                             width: `${skill.level}%`,
                             animationDelay: `${categoryIndex * 200 + skillIndex * 100}ms`
                           }}
@@ -104,10 +104,10 @@ const Skills: React.FC = () => {
               </div>
             ))}
           </div>
-          
+
           <div className="mt-16 text-center">
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Always learning and adapting to new technologies. Currently exploring serverless architectures, 
+              Always learning and adapting to new technologies. Currently exploring serverless architectures,
               microservices, and advanced React patterns to stay at the forefront of web development.
             </p>
           </div>
