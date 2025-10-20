@@ -89,7 +89,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate MERN stack developer with a love for creating efficient,
+                I'm a passionate Full-Stack developer with a love for creating efficient,
                 scalable web applications. My journey in web development started with curiosity
                 and has evolved into a deep expertise in modern JavaScript technologies.
               </p>

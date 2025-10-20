@@ -14,11 +14,13 @@ const Hero = () => {
                         <span className="text-primary">Tan</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-muted-foreground mb-2">
-                        MERN Stack Developer
+                        Full-Stack Developer
                     </p>
                     <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                        Building modern web applications with MongoDB,
-                        Express.js, React, and Node.js
+                        Building modern web applications with Next.js, React, and Node.js
+                    </p>
+                    <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                        Integrating modern technologies to build scalable and efficient web applications with passion and precision.
                     </p>
                 </div>
 
@@ -31,7 +33,7 @@ const Hero = () => {
                     </Button>
                     <Button variant="outline" size="lg" className="group">
                         <a
-                            href="https://www.linkedin.com/in/daniel-tan-9a6067278/"
+                            href="https://www.linkedin.com/in"
                             className="flex"
                         >
                             <Linkedin className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />

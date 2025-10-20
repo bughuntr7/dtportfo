@@ -10,7 +10,7 @@ const Footer = () => {
           </div>
 
           <p className="text-muted-foreground max-w-md mx-auto">
-            MERN Stack Developer crafting modern web experiences with passion and precision.
+            Full-Stack Developer crafting modern web experiences with passion and precision.
           </p>
 
           <div className="flex justify-center space-x-6 text-sm text-muted-foreground">
