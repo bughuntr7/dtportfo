@@ -42,7 +42,7 @@ const Contact = () => {
                                     </div>
                                 </div>
 
-                                <div className="flex items-center space-x-3">
+                                {/* <div className="flex items-center space-x-3">
                                     <div className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center">
                                         <Phone className="h-5 w-5 text-primary" />
                                     </div>
@@ -51,10 +51,10 @@ const Contact = () => {
                                             Phone
                                         </p>
                                         <p className="text-muted-foreground">
-                                            +212 7 62 64 09 37
+                                            +44 79 5859 4480
                                         </p>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
 
                             <div className="pt-6">
