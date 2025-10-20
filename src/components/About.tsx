@@ -9,18 +9,27 @@ const About = () => {
   const sectionRef = useRef<HTMLElement | null>(null);
 
   const codeLines = [
-    "// Building scalable MERN solutions",
+    "// Building scalable Full-Stack solutions",
     "const developer = {",
     "  name: 'Daniel Tan',",
-    "  expertise: ['MongoDB', 'Express', 'React', 'Node.js'],",
     "  experience: '9+ years',",
-    "  focus: 'Full-Stack'",
+    "  focus: 'Full-Stack',",
+    "  expertise: [",
+    "    'Frontend: React, Next.js, Vue.js, Tailwind CSS, Material UI',",
+    "    'Backend: Node.js, Express.js, Java (Spring Boot), Python (FastAPI, Flask)',",
+    "    'Languages: JavaScript, TypeScript, Java, Python, SQL',",
+    "    'Databases: PostgreSQL, MySQL, MongoDB, Redis',",
+    "    'AI/ML: OpenAI API, TensorFlow.js, scikit-learn',",
+    "    'Cloud & DevOps: AWS, GCP, Docker, Kubernetes, CI/CD',",
+    "    'Architecture: REST APIs, GraphQL, Microservices, Event-Driven Systems',",
+    "    'Testing: Jest, React Testing Library, Cypress, Postman'",
+    "  ]",
     "};",
     "",
     "const buildSolution = async (requirements) => {",
     "  const solution = await architect(requirements);",
     "  return solution.scalable().performant().maintainable();",
-    "};",
+    "}"
   ];
 
   // Observe when the About section enters the viewport
