@@ -16,36 +16,36 @@ const Skills: React.FC = () => {
       category: "Frontend",
       items: [
         { name: "React", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "Tailwind CSS", level: 95 },
-        { name: "Next.js", level: 85 },
+        { name: "Next.js", level: 90 },
+        { name: "Vue.js", level: 85 },
+        { name: "Tailwind CSS", level: 90 },
       ]
     },
     {
       category: "Backend",
       items: [
-        { name: "Node.js", level: 90 },
-        { name: "Express.js", level: 92 },
-        { name: "REST APIs", level: 88 },
-        { name: "GraphQL", level: 75 },
+        { name: "Node.js", level: 92 },
+        { name: "Express.js", level: 90 },
+        { name: "Java (Spring Boot)", level: 85 },
+        { name: "Python (FastAPI, Flask)", level: 88 },
       ]
     },
     {
       category: "Database",
       items: [
-        { name: "MongoDB", level: 88 },
-        { name: "Mongoose", level: 90 },
-        { name: "SQL", level: 80 },
-        { name: "Redis", level: 70 },
+        { name: "PostgreSQL", level: 85 },
+        { name: "MySQL", level: 80 },
+        { name: "MongoDB", level: 90 },
+        { name: "Redis", level: 75 },
       ]
     },
     {
-      category: "Tools & Others",
+      category: "Cloud & DevOps",
       items: [
-        { name: "Git", level: 92 },
-        { name: "Docker", level: 75 },
-        { name: "AWS", level: 70 },
-        { name: "Testing", level: 80 },
+        { name: "AWS", level: 80 },
+        { name: "GCP", level: 75 },
+        { name: "Docker", level: 78 },
+        { name: "Kubernetes", level: 70 },
       ]
     }
   ];
@@ -116,5 +116,7 @@ const Skills: React.FC = () => {
     </section>
   );
 };
+
+
 
 export default Skills;
