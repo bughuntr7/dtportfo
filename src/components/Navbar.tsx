@@ -43,6 +43,15 @@ const Navbar = () => {
                     </li>
                     <li>
                         <a
+                            href="#skills"
+                            className="hover:text-accent transition-colors"
+                            onClick={close}
+                        >
+                            Skills
+                        </a>
+                    </li>
+                    <li>
+                        <a
                             href="#projects"
                             className="hover:text-accent transition-colors"
                             onClick={close}
@@ -98,6 +107,13 @@ const Navbar = () => {
                         onClick={close}
                     >
                         About
+                    </a>
+                    <a
+                        href="#skills"
+                        className="py-2 hover:text-accent transition-colors"
+                        onClick={close}
+                    >
+                        Skills
                     </a>
                     <a
                         href="#projects"
